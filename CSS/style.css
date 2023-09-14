@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   text-decoration: none;
+}
+
+body {
+    background-image: url(../IMG/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    background-color : rgb(255, 219, 151);
+    width: 50%;
+    text-align: center; 
+    border-radius: 5px;
+    padding: 25px;
+    margin: 25px auto 0;
+}
+
+.input-task {
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    height: 40px;
+    padding-left: 10px;
+  }
+  
+  .button-add-task {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #000000;
+    color: rgb(255, 219, 151);
+    font-size: 15px;
+    padding: 0 10px;
+    float: right;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  
+  .button-add-task:hover {
+    opacity: 0.9;
+  }
+  .button-add-task:active {
+    opacity: 0.4;
+  }
+  
+  
+  .list-tasks {
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+  }
+  
+  .task {
+    background-color: #f2f2f2;
+    box-shadow: 1px 4px 10px rgba(0,0,0, 0.5);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+h1 {
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+input {
+   margin: 10px auto;
+   width: 50%;
+   padding: 10px;
+   text-align: center;   
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+button {
+   border: none;
+   color: rgb(247, 211, 144);
+   background-color: black; 
+   margin: 10px auto;
+   width: 25%;
+   padding: 10px;
+   text-align: center;   
+}
+
+nav {
+    line-height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lixo {
+    height: 25px;
+}
+
+a {
+    color: rgb(247, 211, 144);
+}

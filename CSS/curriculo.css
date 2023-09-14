@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 30px;
+}
+
+img {border-radius: 50%;}
+
+h1 {font-size: 30px;}
+
+h2 {font-size: 20px;}
+
+h3 {font-size: 15px;}
+
+p {font-size: 17px;}
+
+body {
+    padding: 50px;
+    text-align: center;
+    background-color:#D5F2D1;
+}
